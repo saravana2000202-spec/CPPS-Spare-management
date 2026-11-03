@@ -1,0 +1,20 @@
+{
+  "name": "plant-delivery-guidance-app",
+  "version": "1.0.0",
+  "description": "Plant Material Delivery & Storage Guidance App - Role-based industrial workflow system",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm.cmd --prefix client run dev",
+    "dev": "node scripts/start-dev.js",
+    "test:api": "node server/test/api.test.js",
+    "test": "node server/test/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ws": "^8.18.0",
+    "xlsx": "^0.18.5"
+  }
+}
