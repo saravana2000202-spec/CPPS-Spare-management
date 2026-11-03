@@ -4,7 +4,7 @@ const path = require('path');
 const localIp = '192.168.111.75';
 const port = 3001;
 const localUrl = `http://${localIp}:${port}`;
-const publicUrl = 'https://whole-geckos-create.loca.lt';
+const publicUrl = 'https://silver-dots-tie.loca.lt';
 const tunnelPassword = '125.20.80.102';
 
 // QR codes via quickchart / google chart
